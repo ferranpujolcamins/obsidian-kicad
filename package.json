@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-kicad",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Add view-only compatibility to KiCad files thanks with KiCanvas.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
