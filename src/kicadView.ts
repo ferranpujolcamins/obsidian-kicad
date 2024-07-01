@@ -22,11 +22,11 @@ export class KicadView extends FileView {
 
 	async onOpen() {
 		const container = this.containerEl.children[1];
-        container.empty();
 	}
 
     async onLoadFile(file: TFile) {
         const container = this.containerEl.children[1];
+		container.empty();
         container.createEl("kicanvas-embed", {attr: {
 			"src": this.app.vault.getResourcePath(file),
 			"controls": "full",
