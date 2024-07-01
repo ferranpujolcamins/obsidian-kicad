@@ -29,7 +29,8 @@ export class KicadView extends FileView {
         const container = this.containerEl.children[1];
         container.createEl("kicanvas-embed", {attr: {
 			"src": this.app.vault.getResourcePath(file),
-			"controls": "full"
+			"controls": "full",
+			"controlslist": "nooverlay"
 		}});
     }
 
